@@ -1,0 +1,4 @@
+org\meto\appium\tests\TFCustomer.class
+org\meto\appium\extentreports\Listeners.class
+org\meto\appium\extentreports\ReportTestApp.class
+org\meto\appium\tests\TFLogin.class

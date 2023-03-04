@@ -1,0 +1,6 @@
+org\meto\appium\pages\FormCustomer.class
+org\meto\appium\utils\AppiumUtils.class
+org\meto\appium\pages\FormProspect.class
+org\meto\appium\base\TestBase.class
+org\meto\appium\pages\FormPage.class
+org\meto\appium\utils\AndroidActions.class

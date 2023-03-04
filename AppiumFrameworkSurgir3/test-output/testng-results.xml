@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T21:05:33 PET" name="Data Driven Basics" finished-at="2023-03-03T21:05:34 PET" duration-ms="1270">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T21:05:33 PET" name="App Manager Login Test" finished-at="2023-03-03T21:05:34 PET" duration-ms="1270">
+      <class name="org.meto.appium.tests.TFLogin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:33 PET" name="setup" finished-at="2023-03-03T21:05:34 PET" duration-ms="1207" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+at org.meto.appium.base.TestBase.setup(TestBase.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:34 PET" name="beforeMethod" finished-at="2023-03-03T21:05:34 PET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillForm()[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:34 PET" name="FillForm" finished-at="2023-03-03T21:05:34 PET" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+at org.meto.appium.base.TestBase.setup(TestBase.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:34 PET" name="beforeMethod" finished-at="2023-03-03T21:05:34 PET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="FillProspect()[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:34 PET" name="FillProspect" finished-at="2023-03-03T21:05:34 PET" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: The application at 'C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk' does not exist or is not accessible 
+Host info: host: '9NWBY93-METO', ip: '192.168.1.37'
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:udid=5200fa184e619579, appium:ignoreHiddenApiPolicyError=true, appium:chromedriverExecutable=C://Users//Praxis//Documents//chromedriver, appium:appWaitActivity=.ui.login.LoginActivity,.ui.splash.SplashActivity, appium:deviceName=samsung SM-T395, platformName=ANDROID, appium:automationName=UIAutomator2, appium:app=C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug4.5.0_test.apk}], desiredCapabilities=Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}}]
+Capabilities {appium:app: C://code//AppiumFrameworkSu..., appium:appWaitActivity: .ui.login.LoginActivity,.ui..., appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//Praxis//Document..., appium:deviceName: samsung SM-T395, appium:ignoreHiddenApiPolicyError: true, appium:udid: 5200fa184e619579, platformName: ANDROID}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+at org.meto.appium.base.TestBase.setup(TestBase.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillProspect -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.meto.appium.tests.TFLogin@4ce1d6d0]" started-at="2023-03-03T21:05:34 PET" name="teardown" finished-at="2023-03-03T21:05:34 PET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.meto.appium.tests.TFLogin -->
+    </test> <!-- App Manager Login Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>

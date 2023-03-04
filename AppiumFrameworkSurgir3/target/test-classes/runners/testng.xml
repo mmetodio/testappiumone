@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+<listeners>
+<listener class-name="org.meto.appium.extentreports.Listeners"/>
+</listeners>
+
+	<test name="App Manager Login Test">
+		<classes>
+			<class name="org.meto.appium.tests.TFLogin" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- <test name="Customer Test"> 
+		<classes> 
+			<class name="org.meto.appium.tests.TFCustomer" /> 
+		</classes> 
+	</test> -->  <!-- Test -->
+
+	<!-- <test name="Open Account Test"> <classes> <class name="com.m2a.testcases.OpenAccountTest" 
+		/> </classes> </test> -->   <!-- Test -->
+
+</suite> <!-- Suite -->
