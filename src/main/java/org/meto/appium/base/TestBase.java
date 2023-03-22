@@ -51,7 +51,8 @@ public class TestBase extends AppiumUtils{
 		options.setChromedriverExecutable("C://Users//Praxis//Documents//chromedriver");
 
 	//	options.setApp("C://code//AppiumFrameworkSurgir//src//test//resources//app//Surgir_debug_4.3.0_Release4.3.0.apk");
-		options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug4.5.0_test.apk");
+	//	options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//Surgir_debug4.5.0_test.apk");
+		options.setApp("C://code//AppiumFrameworkSurgir3//src//test//resources//app//03_21_2130_Surgir_debug_4.5.0_multiriesgo.apk");
 
 		
 
